@@ -7,7 +7,7 @@ Simple asynchronous javascript loading. (like facebook does it).
 Insert this into your html
 
     <script>
-        // Create the function, that the async script calls
+        // Create the method, that the async script calls
         window.myAsyncInit = function() {
             AsyncApp.init({
                 option1: 'string',
