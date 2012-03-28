@@ -4,6 +4,8 @@ Simple asynchronous javascript loading. (like facebook does it).
 
 ## Example
 
+Insert this into your html
+
     <script>
         // Create the function, that the async script calls
         window.myAsyncInit = function() {
@@ -33,3 +35,5 @@ Simple asynchronous javascript loading. (like facebook does it).
             ref.parentNode.insertBefore(js, ref);
         }(document));
     </script>
+
+Check async.js and index.html for more.
