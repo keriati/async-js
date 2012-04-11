@@ -17,17 +17,16 @@
         });
     };
 
-    (function(d){
-        var js,
-            id = 'async-script',
-            ref = d.getElementsByTagName('script')[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement('script');
-        js.id = id;
-        js.async = true;
-        js.src = "async.js";
-        ref.parentNode.insertBefore(js, ref);
-    }(document));
+    (function(d,s){
+        var i = 'async-script-id', j,
+            r = d.getElementsByTagName(s)[0];
+        if (d.getElementById(i)) {return;}
+        j = d.createElement('script');
+        j.id = i;
+        j.async = true;
+        j.src = "async.js";
+        r.parentNode.insertBefore(j, r);
+    }(document, 'script'));
 </script>
 
 </body>

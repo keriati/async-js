@@ -35,4 +35,4 @@
 
     // Call the async init method
     window.setTimeout(function() { if (window.myAsyncInit) { myAsyncInit(); } }, 0);
-})(window)
+})(window);
